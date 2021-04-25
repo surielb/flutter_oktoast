@@ -75,7 +75,7 @@ class __ToastContainerState extends State<_ToastContainer>
       child: widget.child,
       animation: _animationController,
       builder: (BuildContext context, Widget? child) {
-          return widget.animationBuilder(context,child,_animationController,_animationController.value);
+          return widget.animationBuilder(context,child!,_animationController,_animationController.value);
       },
     );
 
